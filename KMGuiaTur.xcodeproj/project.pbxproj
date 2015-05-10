@@ -8,11 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		8D518F0D1AEBBE300045330E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D518F0C1AEBBE300045330E /* AppDelegate.swift */; };
-		8D518F0F1AEBBE300045330E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D518F0E1AEBBE300045330E /* ViewController.swift */; };
 		8D518F121AEBBE300045330E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D518F101AEBBE300045330E /* Main.storyboard */; };
 		8D518F141AEBBE300045330E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D518F131AEBBE300045330E /* Images.xcassets */; };
 		8D518F171AEBBE300045330E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D518F151AEBBE300045330E /* LaunchScreen.xib */; };
 		8D518F231AEBBE310045330E /* KMGuiaTurTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D518F221AEBBE310045330E /* KMGuiaTurTests.swift */; };
+		8D518F2D1AEBC74D0045330E /* KMGuiaTurTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D518F2C1AEBC74D0045330E /* KMGuiaTurTableViewController.swift */; };
+		8D518F2F1AEBC7670045330E /* KMGuiaTurMapaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D518F2E1AEBC7670045330E /* KMGuiaTurMapaViewController.swift */; };
+		8D518F311AEBC7780045330E /* KMGuiaTurDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D518F301AEBC7780045330E /* KMGuiaTurDetailViewController.swift */; };
+		8D518F341AEBC8A80045330E /* guiatur.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8D518F321AEBC8A80045330E /* guiatur.xcdatamodeld */; };
+		8D518F3E1AEBCD860045330E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D518F3D1AEBCD860045330E /* MapKit.framework */; };
+		8D518F401AEBD98F0045330E /* KMGuiaTurPersistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D518F3F1AEBD98E0045330E /* KMGuiaTurPersistence.swift */; };
+		8D518F461AEBE79E0045330E /* Guiaturismo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D518F451AEBE79E0045330E /* Guiaturismo.swift */; };
+		8D518F481AEC235F0045330E /* KMGuiaTurAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D518F471AEC235F0045330E /* KMGuiaTurAnnotation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +36,20 @@
 		8D518F071AEBBE300045330E /* KMGuiaTur.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KMGuiaTur.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D518F0B1AEBBE300045330E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D518F0C1AEBBE300045330E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8D518F0E1AEBBE300045330E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8D518F111AEBBE300045330E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8D518F131AEBBE300045330E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8D518F161AEBBE300045330E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		8D518F1C1AEBBE310045330E /* KMGuiaTurTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KMGuiaTurTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D518F211AEBBE310045330E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D518F221AEBBE310045330E /* KMGuiaTurTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KMGuiaTurTests.swift; sourceTree = "<group>"; };
+		8D518F2C1AEBC74D0045330E /* KMGuiaTurTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KMGuiaTurTableViewController.swift; sourceTree = "<group>"; };
+		8D518F2E1AEBC7670045330E /* KMGuiaTurMapaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KMGuiaTurMapaViewController.swift; sourceTree = "<group>"; };
+		8D518F301AEBC7780045330E /* KMGuiaTurDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KMGuiaTurDetailViewController.swift; sourceTree = "<group>"; };
+		8D518F331AEBC8A80045330E /* guiatur.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = guiatur.xcdatamodel; sourceTree = "<group>"; };
+		8D518F3D1AEBCD860045330E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		8D518F3F1AEBD98E0045330E /* KMGuiaTurPersistence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KMGuiaTurPersistence.swift; sourceTree = "<group>"; };
+		8D518F451AEBE79E0045330E /* Guiaturismo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Guiaturismo.swift; path = ../Guiaturismo.swift; sourceTree = "<group>"; };
+		8D518F471AEC235F0045330E /* KMGuiaTurAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KMGuiaTurAnnotation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D518F3E1AEBCD860045330E /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +74,7 @@
 		8D518EFE1AEBBE300045330E = {
 			isa = PBXGroup;
 			children = (
+				8D518F3D1AEBCD860045330E /* MapKit.framework */,
 				8D518F091AEBBE300045330E /* KMGuiaTur */,
 				8D518F1F1AEBBE310045330E /* KMGuiaTurTests */,
 				8D518F081AEBBE300045330E /* Products */,
@@ -77,10 +93,16 @@
 		8D518F091AEBBE300045330E /* KMGuiaTur */ = {
 			isa = PBXGroup;
 			children = (
+				8D518F451AEBE79E0045330E /* Guiaturismo.swift */,
 				8D518F0C1AEBBE300045330E /* AppDelegate.swift */,
-				8D518F0E1AEBBE300045330E /* ViewController.swift */,
+				8D518F471AEC235F0045330E /* KMGuiaTurAnnotation.swift */,
+				8D518F3F1AEBD98E0045330E /* KMGuiaTurPersistence.swift */,
+				8D518F2C1AEBC74D0045330E /* KMGuiaTurTableViewController.swift */,
+				8D518F2E1AEBC7670045330E /* KMGuiaTurMapaViewController.swift */,
+				8D518F301AEBC7780045330E /* KMGuiaTurDetailViewController.swift */,
 				8D518F101AEBBE300045330E /* Main.storyboard */,
 				8D518F131AEBBE300045330E /* Images.xcassets */,
+				8D518F321AEBC8A80045330E /* guiatur.xcdatamodeld */,
 				8D518F151AEBBE300045330E /* LaunchScreen.xib */,
 				8D518F0A1AEBBE300045330E /* Supporting Files */,
 			);
@@ -161,6 +183,11 @@
 				TargetAttributes = {
 					8D518F061AEBBE300045330E = {
 						CreatedOnToolsVersion = 6.3;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					8D518F1B1AEBBE310045330E = {
 						CreatedOnToolsVersion = 6.3;
@@ -212,8 +239,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D518F0F1AEBBE300045330E /* ViewController.swift in Sources */,
+				8D518F481AEC235F0045330E /* KMGuiaTurAnnotation.swift in Sources */,
 				8D518F0D1AEBBE300045330E /* AppDelegate.swift in Sources */,
+				8D518F311AEBC7780045330E /* KMGuiaTurDetailViewController.swift in Sources */,
+				8D518F341AEBC8A80045330E /* guiatur.xcdatamodeld in Sources */,
+				8D518F2F1AEBC7670045330E /* KMGuiaTurMapaViewController.swift in Sources */,
+				8D518F2D1AEBC74D0045330E /* KMGuiaTurTableViewController.swift in Sources */,
+				8D518F461AEBE79E0045330E /* Guiaturismo.swift in Sources */,
+				8D518F401AEBD98F0045330E /* KMGuiaTurPersistence.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +452,19 @@
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8D518F321AEBC8A80045330E /* guiatur.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8D518F331AEBC8A80045330E /* guiatur.xcdatamodel */,
+			);
+			currentVersion = 8D518F331AEBC8A80045330E /* guiatur.xcdatamodel */;
+			path = guiatur.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 8D518EFF1AEBBE300045330E /* Project object */;
 }
